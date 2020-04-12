@@ -5,65 +5,38 @@ export default ({ users, requestSort }) => {
   console.log(users);
   return (
     <table className="table table-striped table-dark">
-      <caption>Products</caption>
       <thead>
         <tr>
           <th scope="col">
             {" "}
-            <button
-              type="button"
-              //   onClick={() => requestSort("Picture")}
-              //   className={getClassNamesFor("Picture")}
-            >
-              Picture
-            </button>
+            <button type="button">Picture</button>
           </th>
           <th scope="col">
-            <button
-              type="button"
-              onClick={() => requestSort("first")}
-              //   className={getClassNamesFor("First")}
-            >
+            <button type="button" onClick={() => requestSort("first")}>
               First
             </button>
           </th>
           <th scope="col">
             {" "}
-            <button
-              type="button"
-              onClick={() => requestSort("last")}
-              //   className={getClassNamesFor("Last")}
-            >
+            <button type="button" onClick={() => requestSort("last")}>
               Last
             </button>
           </th>
           <th scope="col">
             {" "}
-            <button
-              type="button"
-              onClick={() => requestSort("phone")}
-              //   className={getClassNamesFor("Phone")}
-            >
+            <button type="button" onClick={() => requestSort("phone")}>
               Phone
             </button>
           </th>
           <th scope="col">
             {" "}
-            <button
-              type="button"
-              onClick={() => requestSort("email")}
-              //   className={getClassNamesFor("Email")}
-            >
+            <button type="button" onClick={() => requestSort("email")}>
               Email
             </button>
           </th>
           <th scope="col">
             {" "}
-            <button
-              type="button"
-              onClick={() => requestSort("dob")}
-              //   className={getClassNamesFor("DOB")}
-            >
+            <button type="button" onClick={() => requestSort("dob")}>
               DOB
             </button>
           </th>
