@@ -1,6 +1,4 @@
 import React from "react";
-// import "./App.css";
-// import 'bootstrap/dist/css/bootstrap.css';
 
 function Input({ setInput, setDate, date }) {
   return (

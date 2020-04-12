@@ -3,7 +3,6 @@ import "./App.css";
 import Nav from "./Nav";
 import "./Nav.css";
 import Input from "./Input";
-import "./Input.css";
 import "bootstrap/dist/css/bootstrap.css";
 import randomuser from "./Randomuser";
 import Table from "./table";
