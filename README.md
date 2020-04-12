@@ -21,7 +21,7 @@ This Employee Directory was our first project using React.js. It features a Reac
 
 To successfully run this application, the user should first clone the repository into a local file and run npm install. Using the local console, user will run "npm i" on the included dependencies. After, run "npm run start" and on your local browser, type in "localhost:3000." Alternatively, the deployed application can be visited on "GitHub pages." This will bring up the UI where the user can filter a set of "Random API" called persons by name or date of birth range.
 
-![Main-Page-UI](mainpage.png)
+![Main-Page-UI](react-employee-directory/public/mainpage.png)
 
 Alternatively, there is an additional option to sort each person by the buttons on table heading such as "Phone Number" or "Last Name." These can be interwoven with the search parameters giving the user multiple levels of filtered content.
 
