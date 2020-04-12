@@ -25,7 +25,7 @@ To successfully run this application, the user should first clone the repository
 
 Alternatively, there is an additional option to sort each person by the buttons on table heading such as "Phone Number" or "Last Name." These can be interwoven with the search parameters giving the user multiple levels of filtered content.
 
-![Filtered Results](filtered.png)
+![Filtered Results](react-employee-directory/public/filtered.png)
 
 ## Motivation
 
