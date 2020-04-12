@@ -9,34 +9,60 @@ export default ({ users, requestSort }) => {
         <tr>
           <th scope="col">
             {" "}
-            <button type="button">Picture</button>
+            <button
+              type="button"
+              //   onClick={() => requestSort("Picture")}
+              //   className={getClassNamesFor("Picture")}
+            >
+              Picture
+            </button>
           </th>
           <th scope="col">
-            <button type="button" onClick={() => requestSort("first")}>
+            <button
+              type="button"
+              onClick={() => requestSort("first")}
+              //   className={getClassNamesFor("First")}
+            >
               First
             </button>
           </th>
           <th scope="col">
             {" "}
-            <button type="button" onClick={() => requestSort("last")}>
+            <button
+              type="button"
+              onClick={() => requestSort("last")}
+              //   className={getClassNamesFor("Last")}
+            >
               Last
             </button>
           </th>
           <th scope="col">
             {" "}
-            <button type="button" onClick={() => requestSort("phone")}>
+            <button
+              type="button"
+              onClick={() => requestSort("phone")}
+              //   className={getClassNamesFor("Phone")}
+            >
               Phone
             </button>
           </th>
           <th scope="col">
             {" "}
-            <button type="button" onClick={() => requestSort("email")}>
+            <button
+              type="button"
+              onClick={() => requestSort("email")}
+              //   className={getClassNamesFor("Email")}
+            >
               Email
             </button>
           </th>
           <th scope="col">
             {" "}
-            <button type="button" onClick={() => requestSort("dob")}>
+            <button
+              type="button"
+              onClick={() => requestSort("dob")}
+              //   className={getClassNamesFor("DOB")}
+            >
               DOB
             </button>
           </th>
