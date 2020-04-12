@@ -38,5 +38,7 @@ Future functionality for this app will most definitely include incorporating mor
 ## References
 
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date
+
 https://www.youtube.com/watch?v=Law7wfdg_ls
+
 https://randomuser.me/
