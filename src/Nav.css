@@ -1,0 +1,11 @@
+.top-line,
+.bottom-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  color: white;
+  background: black;
+  border-bottom: 5px solid red;
+}
