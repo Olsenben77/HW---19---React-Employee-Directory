@@ -36,9 +36,6 @@ function App() {
     []
   );
   useEffect(() => {
-    console.log(date);
-  }, [date]);
-  useEffect(() => {
     const filtered = users.filter(
       (user) =>
         (user.first.toLowerCase().includes(input) ||
@@ -50,7 +47,6 @@ function App() {
     setFilteredUsers(filtered);
     setSortedUsers(filtered);
   }, [input, users, date]);
-  console.log(date);
 
   const handleSort = (param) => {
     const sorted = order
